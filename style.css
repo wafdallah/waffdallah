@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+section {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+ 
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-img {
+    width: 25px;
+    height: 25px;
+    margin-left:   -90px;
+    margin-top: 210px;
+    padding: 0px;
+    color: #a08e6b;
+
+   
+    
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+}
+
+.dropdown-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+		
+	
+
+.projects {
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+.project-image {
+   
+padding-bottom: 2px;
+    min-height: 100px;
+    width: 8.25em;
+    border-radius: 10px;
+    margin:10px;
+    transition: 0.7s ease;
+}
+
+.project-image:hover {
+   transform: scale(1.1);
+}
+
+
+
+
+
+.project-image:hover  {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 8.25em;
+
+}
+.project-embed embed{
+    margin: 50px;
+    width: 900px;
+}
+.project-video video{
+    margin: 50px;
+    width: 900px;
+    height: 400px;
+    border-color: #a08e6b;
+    border-width: 3px;
+}
+ul{
+    list-style-type: none;
+}
+
+ul ul ul {
+    display: none;
+}
+ul li :hover ul  {
+    display: block;
+}
+#as{
+    position:relative;
+    width: 5.25em;
+    height: 100px;
+    margin-top: -6.25em;
+    margin-left: -130px;
+    transition: 1s;
+align-items: center;
+
+
+}
+#as:hover{
+    margin-top:   5px;
+}
+
+#as button{
+    
+    padding: 0px;
+width: 100px;
+font-size: 12px;
+border: 1px solid #a08e6b ;
+margin-top: 2px;
+text-align: center;
+border-radius:16px 16px 16px 16px;
+color: #a08e6b;
+transition: 1s;
+}
+#as button:hover{
+    color: #18442e;
+    border: 1px solid #18442e ;
+    transform: scale(1.1);
+
+}
+
+@media only screen and (max-with:900px){
+
+    .content{
+        width: 95%;
+    }
+    .projects{
+        width: 90%;
+    }
+    .project-card{
+        width: 95%;
+    }
+    #as{
+        width: 95%;
+
+    }
+    #as button{
+        width: 95%;
+
+    }
+}
